@@ -6,8 +6,12 @@ multiplicacao = a * b
 divisao = a / b
 resto = a % b
 
-print(soma)
+print('Soma: ' + str(soma))
 print(subtracao)
 print(multiplicacao)
 print(divisao)
 print(resto)
+
+x = '1'
+soma2 = int(x) + 1
+print(soma2)
