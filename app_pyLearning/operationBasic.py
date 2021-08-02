@@ -6,14 +6,15 @@ multiplicacao = a * b
 divisao = a / b
 resto = a % b
 
-print('Soma : {}'.format(soma))
-print('Soma : {}. Subtracao: {}'.format(soma, subtracao))
-print('Soma : {soma}. Subtracao: {subtracao}'.format(soma = soma, subtracao = subtracao))
-print('Soma: ' + str(soma))
-print(subtracao)
-print(multiplicacao)
-print(divisao)
-print(resto)
+print('Soma : {soma}. \nSubtração: {subtracao} '
+        '\nMultiplicação: {multiplicacao} '
+        '\nDivisão: {divisao} '
+        '\nResto: {resto} '.format(soma=soma,
+                                   subtracao=subtracao,
+                                   multiplicacao=multiplicacao,
+                                   divisao=divisao,
+                                   resto=resto))
+
 
 # x = '1'
 # soma2 = int(x) + 1
