@@ -66,3 +66,4 @@ print('Convertendo a tupla em lista')
 lista_num = list(tupla)
 print(type(lista_num))
 print(lista_num)
+
