@@ -16,20 +16,22 @@ class Televisao:
 
 televisao = Televisao()
 
-print('Está ligada? {}'.format(televisao.ligada))
-print('Por favor, aperte o botão Power!')
-televisao.power()#<---aperte
-print('Está ligada? {}'.format(televisao.ligada))
-print('Está em qual canal? Precisamos testar o canal 4 e o canal 7')
-print('Canal: {}'.format(televisao.canal))
-televisao.diminui_canal()
-print('Canal: {}'.format(televisao.canal))
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-televisao.aumenta_canal()
-print('Canal: {}'.format(televisao.canal))
-print('Os canais estão Ok')
-print('Ótimo, agora pode desligar por favor!')
-televisao.power()#<---aperte
-print('Esta ligada? {}'. format(televisao.ligada))
-print('Teste da tv OK')
+if __name__ == '__main__':
+
+    print('Está ligada? {}'.format(televisao.ligada))
+    print('Por favor, aperte o botão Power!')
+    televisao.power()#<---aperte
+    print('Está ligada? {}'.format(televisao.ligada))
+    print('Está em qual canal? Precisamos testar o canal 4 e o canal 7')
+    print('Canal: {}'.format(televisao.canal))
+    televisao.diminui_canal()
+    print('Canal: {}'.format(televisao.canal))
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    televisao.aumenta_canal()
+    print('Canal: {}'.format(televisao.canal))
+    print('Os canais estão Ok')
+    print('Ótimo, agora pode desligar por favor!')
+    televisao.power()#<---aperte
+    print('Esta ligada? {}'. format(televisao.ligada))
+    print('Teste da tv OK')
