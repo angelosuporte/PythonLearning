@@ -1,0 +1,1 @@
+comparando hash do A com o B
