@@ -1,7 +1,7 @@
 import random
 import string
 
-tamanho = 16
+tamanho = int(input('Informe a quantidade de caracteres que deseja na senha: '))
 
 chars = string.ascii_letters + string.digits + 'Senha a ser gerada'
 
