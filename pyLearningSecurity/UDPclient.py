@@ -6,7 +6,7 @@ print('Cliente Socket criado com sucesso!')
 
 host = 'localhost'
 porta = 5433
-mensagem = 'Olá servidor ?'
+mensagem = 'Olá, servidor online? '
 
 try:
     print('Cliente: ' + mensagem)
