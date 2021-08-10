@@ -4,7 +4,9 @@ arquivo1 = 'a.txt'
 arquivo2 = 'b.txt'
 
 hash1 = hashlib.new('ripemd160')
+# ripemd160 is a algorithm hash of 160bits
 hash1.update(open(arquivo1, 'rb').read())
+# rb is binary reading method
 
 hash2 = hashlib.new('ripemd160')
 hash2.update(open(arquivo2, 'rb').read())
