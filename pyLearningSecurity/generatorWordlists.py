@@ -1,6 +1,7 @@
 import itertools
 
-resultado = itertools.permutations('abcdf', 3)
+texto = input('Informe a string a ser permutada: ')
+resultado = itertools.permutations(texto, len(texto))
 
 for i in resultado:
     print(''.join(i))
